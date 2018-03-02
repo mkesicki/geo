@@ -11,7 +11,7 @@ parser.add_argument('username',
                     help='Api username. This is mandatory argument.')
 
 parser.add_argument('--id',
-                     help='Link to geotree for city')
+                     help='Place id from geonames')
 
 
 args = parser.parse_args()
@@ -24,7 +24,7 @@ else:
     id = ''
 
 if id is not '':
-    print("Parse "+country + "' city by id: " + id)
+    print("Parse "+country + " area by id: " + id)
     area = AreaClass(id, username, country)
     area.parse()
 else:
