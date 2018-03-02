@@ -53,12 +53,12 @@ This will get cities for Poland and store it in json file. Part of file output:
         "tree": "http://geotree.geonames.org/3093133/", 
         "id": "3093133"
     },
-      ...
+
     }
 ]
 ```
 
-```python
+```bash
 python3.6 geo.py pl --id=3094802 username
 Parse pl area by id: 3094802
 Store data in: /Users/username/geo/data/2018-03-02/country/pl/cities/Lesser Poland Voivodeship.json
