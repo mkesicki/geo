@@ -108,7 +108,7 @@ optional arguments:
 ```
 
 ```bash
-geo$ python3.6 job.py username
+$ python3.6 job.py username
 Parse country: ae
 Store data in: /Users/username/geo/data/2018-03-02/country/ae/cities/data.json
 Parse ae area by id: 292223
