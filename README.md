@@ -53,8 +53,6 @@ This will get cities for Poland and store it in json file. Part of file output:
         "tree": "http://geotree.geonames.org/3093133/", 
         "id": "3093133"
     },
-
-    }
 ]
 ```
 
@@ -80,7 +78,6 @@ This will parse are #3094892 from Poland and store it in file. Part of file outp
         "name": "Bronowice Wielkie", 
         "id": 3102544
        },
-      ...
   ]
 }
 
@@ -96,7 +93,7 @@ countries = ['ae', 'om', 'bh', 'qa', 'sa', 'kw']
 ```
 This is hardcoded but can be changed to get data as argument.
 
-```python
+```bash
 python3.6 job.py -h
 usage: job.py [-h] username
 
