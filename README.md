@@ -127,4 +127,4 @@ Store data in: /Users/username/geo/data/2018-03-02/country/om/cities/Muscat.json
 This script was created in my free time. I needed some data related with 
 geographical content and geonames is good source of it. Script is free, you can do whatever you want with it but there is no warranty,
 also no animals were hurt during working on it.   
-If you want to improve it, please feel fee and create issues, pull requests.
+If you want to improve it, please feel free and create issues, pull requests.
